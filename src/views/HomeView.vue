@@ -1,4 +1,5 @@
 <template>
+  <!--Header-->
   <v-container fluid id="container">
     <v-row class="mt-16 mb-16">
       <v-spacer></v-spacer>
@@ -9,8 +10,9 @@
           <v-btn rounded="0" color="green-lighten-1 text-white mt-4" href="/store">Shop Now</v-btn></v-col>
           <v-spacer></v-spacer>
     </v-row>
-        
   </v-container>
+
+  <!--What we do-->
   <v-container fluid>
     <v-row>
       <v-spacer></v-spacer>
@@ -23,7 +25,26 @@
     <v-row justify="center">
     <v-spacer></v-spacer>
       <v-col cols="auto">
-        <v-btn variant="outlined">Learn More</v-btn>
+        <v-btn variant="outlined" href="/about" rounded="0">Learn More</v-btn>
+      </v-col>
+      <v-spacer></v-spacer>
+    </v-row>
+  </v-container>
+
+  <!--Featured Products-->
+  <v-container fluid>
+    <v-row>
+      <v-spacer></v-spacer>
+      <v-col>
+        <div class="text-h3 text-center mt-5" fill-height>Featured Products</div>
+        <div class="text-body-1 text-center mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eveniet velit ratione voluptatibus similique quam recusandae at magni. Illum vel dolorem dolor ipsum sint. Illo minima perferendis corporis est doloribus ipsum veniam numquam porro? Debitis quod explicabo dolore in autem velit quam sunt. Delectus explicabo tenetur velit quod nisi dolorem inventore pariatur neque. Sed laudantium voluptate labore tempore quisquam obcaecati ut deleniti illo, quo quia distinctio debitis autem molestias est beatae. Voluptate quia placeat officiis delectus eius provident quos cumque?</div>
+      </v-col>
+      <v-spacer></v-spacer>
+    </v-row>
+    <v-row justify="center">
+    <v-spacer></v-spacer>
+      <v-col cols="auto">
+        <v-btn rounded="0" color="green-lighten-1 text-white" href="/store">Shop Now</v-btn>
       </v-col>
       <v-spacer></v-spacer>
     </v-row>
