@@ -134,8 +134,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height:60%;
-   
+  height:35%;   
 }
 </style>
 
