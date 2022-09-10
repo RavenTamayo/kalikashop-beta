@@ -2,7 +2,7 @@
   <NavBar/>
   <!--Header-->
   <v-container fluid id="container">
-    <v-row class="mt-16 mb-16" justify="center">
+    <v-row class="mt-16 mb-16">
       <v-spacer></v-spacer>
         <v-col>
           <div class="text-body-2 text-green font-weight-black">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
@@ -33,7 +33,6 @@
   </v-container>
 
   <v-divider class="mx-6 mt-5"></v-divider>
-
   <!--Featured Products-->
   <v-container fluid>
     <v-row>
@@ -125,76 +124,6 @@
     </v-row>
     <v-divider class="mx-6 mt-5"></v-divider>
   </v-container>
-
-  <!--Analytics-->
-  <v-container fluid>
-    <v-row>
-      <v-spacer></v-spacer>
-      <v-col>
-        <div class="text-h3 text-center mt-5" fill-height>Organization Project Progress</div>
-        <div class="text-body-1 text-center mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eveniet velit ratione voluptatibus similique quam recusandae at magni. Illum vel dolorem dolor ipsum sint. Illo minima perferendis corporis est doloribus ipsum veniam numquam porro? Debitis quod explicabo dolore in autem velit quam sunt. Delectus explicabo tenetur velit quod nisi dolorem inventore pariatur neque. Sed laudantium voluptate labore tempore quisquam obcaecati ut deleniti illo, quo quia distinctio debitis autem molestias est beatae. Voluptate quia placeat officiis delectus eius provident quos cumque?</div>
-      </v-col>
-      <v-spacer></v-spacer>
-    </v-row>
-    <v-row>
-    <v-spacer></v-spacer>
-      <v-col cols="auto">
-        <v-btn variant="outlined" href="/about" rounded="0">Contribute</v-btn>
-      </v-col>
-      <v-spacer></v-spacer>
-    </v-row>
-  </v-container>
-
-  <v-divider class="mx-6 mt-5"></v-divider>
-
-  <!--Contact Us-->
-  <v-container fluid>
-    <v-row>
-      <v-spacer></v-spacer>
-      <v-col>
-        <div class="text-h3 text-center mt-5" fill-height>Contact Us</div>
-        
-      </v-col>
-      <v-spacer></v-spacer>
-    </v-row>
-    
-    <v-row justify="center">
-      <v-col cols="auto">
-        <div class="text-caption-1 font-weight-medium">E-mail:</div>
-        <div class="text-caption-1 font-weight-medium">Contact No.:</div>
-        <div class="text-caption-1 font-weight-medium">Address:</div>
-      </v-col>
-      <v-col cols="auto">
-        <div class="text-caption-1 text-green-darken-3 text-left">kalikashop@gmail.com</div>
-        <div class="text-caption-1 text-green-darken-3 text-left">(123) 456-7890</div>
-        <div class="text-caption-1 text-green-darken-3 text-left">123 Anywhere St. Any City, 
-        ST 12345</div>
-      </v-col>
-    </v-row>
-  </v-container>
-  <v-footer
-    class="bg-green-lighten-1 text-white text-center d-flex flex-column"
-  >
-    <div>
-      <v-btn
-        v-for="icon in icons"
-        :key="icon"
-        class="mx-4 text-white"
-        :icon="icon"
-        variant="text"
-      ></v-btn>
-    </div>
-
-    <div class="text-white pt-3">
-      Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus 
-    </div>
-
-    <v-divider></v-divider>
-
-    <div class="text-white">
-      {{ new Date().getFullYear() }} — <strong>KalikaShop</strong>
-    </div>
-  </v-footer>
 </template>
 
 <script setup>
