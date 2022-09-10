@@ -12,7 +12,6 @@
         </v-toolbar-title>
         <v-spacer></v-spacer>
         
- 
                 <v-btn variant="plain">Login</v-btn>
                 <v-btn variant="plain">Signup</v-btn>
 
