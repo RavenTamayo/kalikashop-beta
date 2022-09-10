@@ -2,6 +2,7 @@
     <nav>
         <v-toolbar app class>
          <v-app-bar-nav-icon @click='toggleDrawer'></v-app-bar-nav-icon>
+
         <v-toolbar-title >
             <v-avatar size="100">
                 <v-img
@@ -10,9 +11,29 @@
                 ></v-img>
             </v-avatar>
         </v-toolbar-title>
+
+
         <v-spacer></v-spacer>
+
+
         
- 
+
+    <v-card-text>
+      <v-text-field
+   
+        density="compact"
+        variant="solo"
+        label="Search..."
+        append-inner-icon="mdi-magnify"
+        single-line
+        hide-details
+        @click:append-inner="onClick"
+      ></v-text-field>
+    </v-card-text>
+
+
+   
+
                 <v-btn variant="plain">Login</v-btn>
                 <v-btn variant="plain">Signup</v-btn>
 
@@ -55,6 +76,6 @@
    function toggleDrawer(){
     return drawer.value = !drawer.value
    }
-  
+   
    
   </script>
