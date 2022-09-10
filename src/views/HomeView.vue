@@ -1,5 +1,4 @@
 <template>
-  <NavBar/>
   <!--Header-->
   <v-container fluid id="container">
     <v-row class="mt-16 mb-16">
@@ -127,7 +126,6 @@
 </template>
 
 <script setup>
-  import NavBar from '@/components/NavBar.vue'
 </script>
 
 <style scoped>
